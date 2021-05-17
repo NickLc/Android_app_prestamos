@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_client"
+            android:icon="@drawable/ic_menu_client"
+            android:title="Cliente" />
+
+        <item
+            android:id="@+id/nav_lend"
+            android:icon="@drawable/ic_menu_lend"
+            android:title="Prestamos" />
+
+        <item
+            android:id="@+id/nav_collect"
+            android:icon="@drawable/ic_menu_collect"
+            android:title="Pagos" />
+
+    </group>
+</menu>
